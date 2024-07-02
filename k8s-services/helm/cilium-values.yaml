@@ -1,0 +1,13 @@
+cni.chainingMode=aws-cni
+cni.exclusive=false
+enableIPv4Masquerade=false
+routingMode=native 
+endpointRoutes.enabled=true
+eni.enabled=true
+ipam.mode=eni
+egressMasqueradeInterfaces=eth0
+routingMode=native
+kubeProxyReplacement=true
+operator.replicas=3
+encryption.enabled=true
+encryption.type=wireguard
